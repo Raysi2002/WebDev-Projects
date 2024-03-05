@@ -1,0 +1,30 @@
+.container{
+    height: 40vh;
+    width: 40vw;
+    background-image: url(/Project\ Images/darkBoy.jpeg);
+    background-size: cover;
+    box-shadow: 4px 4px 15px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+input{
+    display: block;
+    height: 30px;
+    width: 30%;
+    border: 2px solid rgba(42, 201, 203, 0.864);
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px auto;
+    
+}
+button{
+    height: 30px;
+    width: 25%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.568);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <label for="username">
+                <input placeholder="Username" type="text" name="User" id="username">
+            </label>
+            <label for="password">
+                <input placeholder="Password" type="password" name="Password" id="password">
+            </label>
+                <input placeholder="Enter OTP" type="number" id="otp">
+                <button id="generateOTP">Generate OTP</button>
+                <p id="generatedOTP">OTP Appers here</p>
+            <button type="submit">Login</button>
+            <label for="signup">
+                <a href="#">Signup/Create Account</a>
+            </label>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

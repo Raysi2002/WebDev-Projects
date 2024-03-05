@@ -1,0 +1,19 @@
+.cards{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid rgba(118, 118, 231, 0.374);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    text-align: left;
+    padding: 10px;
+}
+.cards:hover{
+    box-shadow: 5px 5px 15px black;
+}
+img{
+    height: 60%;
+    width: 100%;
+    object-fit: contain;
+}
