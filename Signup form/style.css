@@ -1,26 +1,56 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body{
+    background-image: url("/Project\ Images/neon3.jpeg");
+    background-size: cover;
 }
-.head-info{
-    text-align: center;
-}
-.container{
-    height: 50%;
-    width: 35%;
-    padding: 10px;
-    background-color:aqua;
-    border-radius: 10px;
+.wrapper{
+    
+    height: 60%;
+    width: 38%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    text-align: center;
 }
-.container  div{
-    padding: 3px;
-    height: 12%;
-    width: 80%;
+.wrapper div {
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+}
+.wrapper div input{
+    height: 90%;
+    width: 100%;
+    border-radius: 1rem;
+    border:1px solid white;
+    background-color: transparent;
+    /* box-sizing: border-box; */
+    box-shadow: 2px 2px 6px black;
+    outline: none ;
+}
+input::placeholder{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.561);
+    font-size: 17px;
+}
+
+#submit{
+    height: 3em;
+    width: 8rem;
+    margin-top: 30px;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
