@@ -1,0 +1,26 @@
+.container{
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid aqua;
+    border-radius: 1rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container div{
+    height: 30%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 80px;
+    background-color: rgba(0, 0, 0, 0.284);
+    margin: 5px;
+}

@@ -6,8 +6,8 @@
     text-align: center;
 }
 .container{
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 35%;
     padding: 10px;
     background-color:aqua;
     border-radius: 10px;
@@ -22,5 +22,5 @@
 .container  div{
     padding: 3px;
     height: 12%;
-    width: 12%;
+    width: 80%;
 }
