@@ -1,0 +1,31 @@
+#todoList{
+    height: 50vh;
+    width: 50vw;
+    border: 0px solid white;
+    box-shadow: 3px 3px 10px black;
+    margin-top: 30px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 20px;
+}
+#todoList div{
+    height: 40%;
+    width: 40%;
+    margin: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+#todoList div>button{
+    flex-direction: column;
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-size: large;
+    position: relative;
+    left: 4.3vh;
+    bottom: 16.8vh;
+}
