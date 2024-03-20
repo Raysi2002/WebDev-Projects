@@ -26,4 +26,7 @@
     height: 5rem;
     width: 5rem;
     margin: 5px;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 2px ;
 }
