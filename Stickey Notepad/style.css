@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/Project\ Images/darkmount.jpeg");
+    background-size: cover;
+}
+header h1{
+    background-color: rgba(240, 248, 255, 0.51);
+    margin: 0 40px;
+    border-radius: 10px;
+    margin: 5px 40px 0 40px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 88, 16);
+}
+#container{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.66);
+    border-radius: 1pc;
+    margin: 40px 0px 40px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+#container div{
+    margin: 20px;
+}
+
+.note{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.593);
+    box-shadow: 0 0 3px black;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+#toolBox{
+    background-color: rgba(255, 255, 255, 0.868);
+    height: 18%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#toolBox img{
+    height: 52%;
+    width: 10%;
+}
+#toolBox textarea{
+    height: 100%;
+    width: 68%;
+    margin-top: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 0px white;
+    resize: none;
+    padding: 2px 5px 2px 5px;
+    font-size:xx-large;
+    text-align: center;
+}
+
+#textArea{
+    height: 90%;
+    border: 0px white;
+    resize: none;
+    outline: none;
+    padding: 3px 5px 3px 5px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(240, 248, 255);
+}
+
+#addNote{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px black;
+    text-align: center;
+    font-size: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+i > img{
+    height: 40px;
+    width: 40px;
+}
+
+#footer{
+    background-color: rgba(247, 144, 144, 0.37);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 0px 50px;
+    padding: 10px;
+    box-shadow: 0 0 4px black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
