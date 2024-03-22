@@ -1,3 +1,9 @@
+const one = document.getElementById("one");
+const inout = document.getElementById("inout");
+one.addEventListener("click", (e)=>{
+    console.log("one clicked")
+})
+
 function add(x, y){
     return x + y;
 }
