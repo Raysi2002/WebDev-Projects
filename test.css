@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grand{
+    height: 40vh;
+    width: 40vh;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+#father{
+    height: 30vh;
+    width: 30vh;
+    background-color: aqua;
+    border-radius: 50%;
+}
+#child{
+    height: 20vh;
+    width: 20vh;
+    background-color: maroon;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    anim
+}
+#child img{
+    height: 60px;
+    width: 60;
+    animation-name: rotate;
+    animation-duration: 10s;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    /* 25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}
