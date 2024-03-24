@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+#todoContainer{
+    height: 3rem;
+    width: 80%;
+    border: 2px solid green;
+}
+#content{
+    height: 90%;
+    width: 70%;
+}
+#addTodo{
+    height: 90%;
+    width: 25%;
+}
+#storeTodo{
+    height: 300px;
+    width: 80%;
+    border: 2px solid orange;
+}
+#storeTodo div{
+    height: 3rem;
+    width: 100%;
+    border: 2px solid greenyellow;
+    display: flex;
+}
+#storeTodo div p {
+    font-size: 35px;
+    width: 80%;
+    border: 2px solid salmon;
+}
+#storeTodo div button{
+    height: 100%;
+    width: 20%;
+}

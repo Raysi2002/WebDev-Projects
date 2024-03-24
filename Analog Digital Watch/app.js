@@ -8,9 +8,9 @@ function updateTime(){
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
     //Asigning time to this
-    hrs.innerText = `${hours} `;
-    minus.innerText = `${minutes} ${minutes} ${minutes} ${minutes} ${minutes} ${minutes} ${minutes}`;
-    secs.innerText = `${seconds} ${seconds} ${seconds} ${seconds} ${seconds} ${seconds} ${seconds}`;
+    hrs.innerText = 'a';
+    minus.innerText = 'b';
+    secs.innerText = 'c';
 
 
 }

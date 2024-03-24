@@ -3,71 +3,57 @@
     padding: 0;
 }
 body{
-    color: black;
-}
-header{
-    margin-bottom: 50px;
+    /* background-color: black;
+    color: white; */
 }
 header h1{
     text-align: center;
-    
+    margin-bottom: 50px;
 }
+
 #container{
-    height: 80vh;
-    width: 80vh;
+    height: 90vh;
+    width: 90vh;
     background-color: aliceblue;
-    box-shadow: 0 0 10px;
-    box-sizing: border-box;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #watchBody{
-    height: 90%;
-    width: 90%;
-    background-color: rgba(0, 0, 0, 0.778);
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-
-    animation: secondRotate 60s cubic-bezier(0.42, 0, 0.58, 1) forwards ;
-    animation-iteration-count: infinite;
+    position: relative;
 }
-#watchBody div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
-    font-size: 25px;
+#center{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #watchSeconds{
-    height: 40%;
-    width: 2%;
-    background-color: red;
+    height: 200px;
+    width: 20px;
+    background-color: black;
+    border-radius: 40% 40% 0 0;
     position: absolute;
-    animation-name: secondRotate 1s cubic-bezier(0.42, 0, 0.58, 1) forwards ;;
+    top: -600%;
+    left: 15%;
 }
 #watchMinutes{
-    height: 30%;
-    width: 5%;
-    background-color: green;
+    height: 100px;
+    width: 30px;
+    background-color: black;
+    border-radius: 40% 40% 0 0;
     position: absolute;
+    top: -600%;
+    left: 15%;
 }
 #watchHours{
-    height: 20%;
-    width: 7%;
-    background-color: blue;
-    position: absolute;
-}
-@keyframes secondRotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+
 }
