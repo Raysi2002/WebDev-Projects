@@ -18,3 +18,8 @@ ok.addEventListener('click', (e)=>{
     }
 });
 
+const pop = document.getElementById('pop');
+pop.addEventListener('click', (e)=>{
+    let popup = window.open('Guess The Number Game/Popup Message/index.html', 'Popup', 'width=300 height=300');
+    popup.focus();
+})
