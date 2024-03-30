@@ -4,41 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Calculator</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-    .calculator {
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-    }
-    .calculator input[type="button"] {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
-        margin: 5px;
-        border: none;
-        cursor: pointer;
-        outline: none;
-    }
-    .calculator input[type="text"] {
-        width: 210px;
-        height: 40px;
-        font-size: 20px;
-        margin-bottom: 10px;
-        padding: 5px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
 </head>
 <body>
 <div class="calculator">
@@ -64,21 +31,5 @@
     <input type="button" value="=" onclick="calculate()">
     <input type="button" value="+" onclick="appendToDisplay('+')">
 </div>
-
-<script>
-    function appendToDisplay(value) {
-        document.getElementById('display').value += value;
-    }
-
-    function clearDisplay() {
-        document.getElementById('display').value = '';
-    }
-
-    function calculate() {
-        var displayValue = document.getElementById('display').value;
-        var result = eval(displayValue);
-        document.getElementById('display').value = result;
-    }
-</script>
 </body>
 </html>
